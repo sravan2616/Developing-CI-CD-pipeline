@@ -17,7 +17,7 @@ jobs:
           python-version: 3.13
 
       - name: Install requirements
-        run: pip install --requirement development-requirements.txt
+        run: pip install --requirement ./03_02_linting_unit_tests/development-requirements.txt
 
       - name: Lint code
         run: |
